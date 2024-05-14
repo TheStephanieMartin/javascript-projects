@@ -7,6 +7,7 @@ console.log(num.length);
 let numString = String(num);
 console.log(numString);
 console.log(numString.length);
+console.log(numString.length -1);
 
 //Follow up: Print the number of digits in a DECIMAL value 
 //(e.g. num = 123.45 has 5 digits but a length of 6).
@@ -23,3 +24,4 @@ if (String(num).includes('.')){
  } else {
     console.log(String(num).length);
  }
+
