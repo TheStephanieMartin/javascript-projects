@@ -42,16 +42,21 @@ let myArray1 = [1, 5, "LC101", "blue", 42];
 //   console.log(myArray1[i]);
 // }
 
-//B
-// for (let i = 0; i < myVariable1.length; i++) {
-//   console.log(myVariable1[i]);
-// }
-for (let i = 0; i < myVariable1.length; i++) {
-  console.log(myVariable1[i]);
-}
+// //B
 
+
+// let reversed = "";
+
+// for (let i = 0; i < myVariable1.length; i++) {
+//    reversed = myVariable1[i] + "\n" + reversed;
+// }
+
+// console.log(reversed);
 
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, 
   -10, 11, 0, 104] into two new arrays:
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
+let myArray2 = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+let newArray1 = [];
+let newArray2 = [];
