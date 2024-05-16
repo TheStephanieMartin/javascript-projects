@@ -38,20 +38,20 @@ let myVariable1 = "LaunchCode";
 let myArray1 = [1, 5, "LC101", "blue", 42];
 
 //A
-// for (let i = 0; i < myArray1.length; i++) {
-//   console.log(myArray1[i]);
-// }
+for (let i = 0; i < myArray1.length; i++) {
+  console.log(myArray1[i]);
+}
 
-// //B
+//B
 
 
-// let reversed = "";
+let reversed = "";
 
-// for (let i = 0; i < myVariable1.length; i++) {
-//    reversed = myVariable1[i] + "\n" + reversed;
-// }
+for (let i = 0; i < myVariable1.length; i++) {
+   reversed = myVariable1[i] + "\n" + reversed;
+}
 
-// console.log(reversed);
+console.log(reversed);
 
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, 
   -10, 11, 0, 104] into two new arrays:
