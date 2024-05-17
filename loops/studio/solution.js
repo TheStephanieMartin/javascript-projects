@@ -9,22 +9,34 @@ let beverages = ['juice', 'milk', 'water', 'soy milk', 'soda', 'tea'];
 let desserts = ['apple', 'banana', 'more kale', 'ice cream', 'chocolate', 'kiwi'];
 
 
+
 function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   let pantry = [protein, grains, veggies, beverages, desserts];
   let meals = [];
   
   /// Part A #2: Write a ``for`` loop inside this function
   /// Code your solution for part A #2 below this comment (and above the return statement) ... ///
-for (let i = 0; i < numMeals; i++) {
-  let currentMeal = [];
-  for (let j = 0; j < pantry.length; j++) {
-    currentMeal.push();
+// for (let i = 0; i < numMeals; i++) {
+//   let currentMeal = [];
+//   for (let j = 0; j < pantry.length; j++) {
+//     currentMeal.push();
+//   }
+// }
+
+//console.log(numMeals);
+const numMeals = input.question("Between 1-6, how many meals do you want? ");
+let currentMeal = [];
+  for (i = 0; i < numMeals; i++) {
+    
+    for (let j = 0; j < pantry.length; j++) {
+      console.log(`${j + 1}: ${pantry[j]}`)
   }
-}
+  
+
   return meals;
 }
 
-
+}
 function askForNumber() {
   numMeals = input.question("How many meals would you like to make?");
   
@@ -49,8 +61,8 @@ function runProgram() {
   /// Change the final input variable (aka numMeals) here to ensure your solution makes the right number of meals ///
   /// We've started with the number 2 for now. Does your solution still work if you change this value? ///
   
-  // let meals = mealAssembly(protein, grains, veggies, beverages, desserts, 2);
-  // console.log(meals)
+  let meals = mealAssembly(protein, grains, veggies, beverages, desserts, 2);
+   console.log(meals)
   
 
   /// TEST PART B HERE ///
